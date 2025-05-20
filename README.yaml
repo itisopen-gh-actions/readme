@@ -18,16 +18,16 @@ tags:
 license: "APACHE2"
 
 # Canonical GitHub repo
-github_repo: cloudposse-github-actions/readme
+github_repo: itisopen-gh-actions/readme
 
 # Badges to display
 badges:
   - name: "Latest Release"
-    image: "https://img.shields.io/github/release/cloudposse-github-actions/readme.svg"
-    url: "https://github.com/cloudposse-github-actions/readme/releases/latest"
+    image: "https://img.shields.io/github/release/itisopen-gh-actions/readme.svg"
+    url: "https://github.com/itisopen-gh-actions/readme/releases/latest"
   - name: "Slack Community"
-    image: "https://slack.cloudposse.com/badge.svg"
-    url: "https://slack.cloudposse.com"
+    image: "https://slack.itisopen.net/for-the-badge.svg"
+    url: "https://slack.itisopen.com"
 
 related: []
 
@@ -35,16 +35,16 @@ related: []
 description: |
   Rebuilds [`README.md`](README.md) and associated banners from templates using the [`README.yaml`](README.yaml) metadata.
 
-author: hello@cloudposse.com
+author: hello@itisopen.com
 
 introduction: |-
-  This opinionated implementation builds upon Cloud Posse's build-harness and README.yaml
-  used throughout Cloud Posse's GitHub repositories.
+  This opinionated implementation builds upon ITisOpen's build-harness and README.yaml
+  used throughout ITisOpen's GitHub repositories.
 
 references:
   - name: "screenshot"
     description: ""
-    url: "https://github.com/cloudposse-github-actions/screenshot"
+    url: "https://github.com/itisopen-gh-actions/screenshot"
 
 # How to use this project
 usage: |-
@@ -64,7 +64,7 @@ usage: |-
       runs-on: ubuntu-latest
       steps:
         - name: Rebuild README.md and Banner
-          uses: cloudposse-github-actions/readme@v0
+          uses: itisopen-gh-actions/readme@v0
           id: readme
           with:
             banner_enabled: true
@@ -107,7 +107,7 @@ usage: |-
         runs-on: ubuntu-latest
         steps:
           - name: Rebuild README.md and Banner
-            uses: cloudposse-github-actions/readme@v0
+            uses: itisopen-gh-actions/readme@v0
             id: readme
             with:
               banner_enabled: true

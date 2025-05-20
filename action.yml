@@ -1,9 +1,9 @@
 name: 'README Generator'
 description: |
   Rebuilds README.md and associated banners from templates and README.yaml metadata and runs link validation.
-  This opinionated implementation builds upon Cloud Posse's build-harness and README.yaml
-  used through out Cloud Posse's GitHub repositories.
-author: maintainers@cloudposse.com
+  This opinionated implementation builds upon ITisOpen's build-harness and README.yaml
+  used through out ITisOpen's GitHub repositories.
+author: maintainers@itisopen.com
 branding:
   icon: 'edit'
   color: 'white'
@@ -113,7 +113,7 @@ runs:
       uses: actions/checkout@v4
       with:
         repository: '${{ inputs.repository_org || steps.metadata.outputs.owner_login }}/.github'
-        ref: 'main'
+        ref: 'itisopen'
         path: 'github'
         token: "${{ inputs.token }}"
 
@@ -185,7 +185,7 @@ runs:
 
     - name: Generate banner image
       id: banner
-      uses: cloudposse-github-actions/screenshot@main
+      uses: itisopen-gh-actions/screenshot@itisopen
       if: inputs.banner_enabled == 'true'
       with:
         url: "file://${{github.workspace}}/github/banner/index.html"
@@ -206,7 +206,7 @@ runs:
       shell: bash
       run: |
         if [[ ! -f Makefile ]]; then
-          echo '-include $(shell curl -sSL -o .build-harness "https://cloudposse.tools/build-harness"; echo .build-harness)' > Makefile
+          echo '-include $(shell curl -sSL -o .build-harness "https://itisopen.net/redirect/build-harness"; echo .build-harness)' > Makefile
         fi
         make init
 
