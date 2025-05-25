@@ -1,5 +1,7 @@
+
+
 <!-- markdownlint-disable -->
-<a href="https://itisopen.net"><img src=".github/banner.png?raw=true" alt="Project Banner"/></a><br/>
+<a href="https://itisopen.net/homepage"><img src="https://github.com/itisopen-gh-actions/readme/blob/itisopen/.github/banner.png?raw=true" alt="Project Banner"/></a><br/>
     <p align="right">
 <a href="https://github.com/itisopen-gh-actions/readme/releases/latest"><img src="https://img.shields.io/github/release/itisopen-gh-actions/readme.svg" alt="Latest Release"/></a><a href="https://slack.itisopen.com"><img src="https://slack.itisopen.net/for-the-badge.svg" alt="Slack Community"/></a></p>
 <!-- markdownlint-restore -->
@@ -29,17 +31,6 @@ Rebuilds [`README.md`](README.md) and associated banners from templates using th
 
 
 
----
-> [!NOTE]
-> This project is part of ITisOpen's comprehensive ["ITisOpen"](https://itisopen.net?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=) approach towards DevOps.
-> <details><summary><strong>Learn More</strong></summary>
->
-> It's 100% Open Source and licensed under the [APACHE2](LICENSE).
->
-> We have [*dozens of GitHub Actions*](https://github.com/itisopen-github-actions?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=github_actions) that are Open Source and well-maintained. Check them out!
-> </details>
-
-<a href="https://itisopen.com/readme/header/link?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=readme_header_link"><img src="https://itisopen.com/readme/header/img"/></a>
 
 
 ## Introduction
@@ -49,17 +40,8 @@ used throughout ITisOpen's GitHub repositories.
 
 
 
+
 ## Usage
-
-
-
-> [!IMPORTANT]
-> In ITisOpen's examples, we avoid pinning GitHub Actions to specific versions to prevent discrepancies between the documentation 
-> and the latest released versions. However, for your own projects, we strongly advise pinning each GitHub Action to the exact version
-> you're using. This practice ensures the stability of your workflows. Additionally, we recommend implementing a systematic 
-> approach for updating versions to avoid unexpected changes.
-
-
 
 To use this project, follow these steps:
 
@@ -131,7 +113,6 @@ it to the main branch.
 
 
 
-
 <!-- markdownlint-disable -->
 
 ## Inputs
@@ -179,23 +160,22 @@ For additional context, refer to some of these links.
 - [screenshot](https://github.com/itisopen-gh-actions/screenshot) - 
 
 
+
+
 ## ✨ Contributing
 
 This project is under active development, and we encourage contributions from our community.
-Many thanks to our outstanding contributors:
+
+
+
+- Many thanks to the outstanding contributors to the Cloud Posse upstream contents. We appreciate your hard work and dedication to building scalable enterprise grade solutions.
+- Many thanks also to the contributors to the ITisOpen upstream contents. We appreciate your hard work and dedication to extending the work of Cloud Posse to other cloud providers.
 
 <a href="https://github.com/itisopen-gh-actions/readme/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=itisopen-gh-actions/readme&max=24" />
 </a>
 
-### 🐛 Bug Reports & Feature Requests
-
-Please use the [issue tracker](https://github.com/itisopen-gh-actions/readme/issues) to report any bugs or file feature requests.
-
-### 💻 Developing
-
-If you are interested in being a contributor and want to get involved in developing this project or help out with ITisOpen's other projects, we would love to hear from you! 
-Hit us up in [Slack](https://itisopen.net/slack?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=slack), in the `#itisopen` channel.
+For 🐛 bug reports & feature requests, please use the [issue tracker](https://github.com/itisopen-gh-actions/readme/issues).
 
 In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
  1. Review our [Code of Conduct](https://github.com/itisopen-gh-actions/readme/?tab=coc-ov-file#code-of-conduct) and [Contributor Guidelines](https://github.com/itisopen/.github/blob/main/CONTRIBUTING.md).
@@ -209,49 +189,25 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
 ### 🌎 Slack Community
 
-Join our [Open Source Community](https://itisopen.net/slack?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=slack) on Slack. It's **FREE** for everyone! Our "ITisOpen" community is where you get to talk with others who share a similar vision for how to rollout and manage infrastructure. This is the best place to talk shop, ask questions, solicit feedback, and work together as a community to build totally *sweet* infrastructure.
+Join our [Open Source Community](https://itisopen.net/slack?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=slack) on Slack. It's **FREE** for everyone! Our "ITisOpen" community is where you get to talk with others who share a similar vision for how to rollout and manage infrastructure. This is the best place to talk shop, ask questions, solicit feedback, and work together as a community to build totally *open* infrastructure.
+<!-- markdownlint-disable -->
+<p className="mb-6 bg-blue-50 border-l-4 border-blue-400 p-4 rounded">
+<strong>Note:</strong> ITisOpen is leverages open-source projects from <a href="https://cloudposse.com/" className="underline text-blue-700" target="_blank" rel="noopener noreferrer">Cloud Posse</a>. We encourage you to also join the Cloud Posse Slack community for even more collaboration and support: <a href="https://slack.cloudposse.com/" className="underline text-blue-700" target="_blank" rel="noopener noreferrer">slack.cloudposse.com</a>
+</p>
+<!-- markdownlint-restore -->
+
 
 ### 📰 Newsletter
 
-Sign up for [our newsletter](https://itisopen.net/newsletter?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=newsletter) and join 3,000+ DevOps engineers, CTOs, and founders who get insider access to the latest DevOps trends, so you can always stay in the know.
+Sign up for [our newsletter](https://itisopen.net/newsletter?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=newsletter) and join other DevOps & Platform Engineers, CTOs, and founders who get insider access to the latest DevOps & Platform Engineering trends, so you can always stay in the know.
 Dropped straight into your Inbox every week — and usually a 5-minute read.
 
-### 📆 Office Hours <a href="https://itisopen.com/office-hours?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=office_hours"><img src="https://img.itisopen.com/fit-in/200x200/https://itisopen.com/wp-content/uploads/2019/08/Powered-by-Zoom.png" align="right" /></a>
+<!--
+### 📆 Office Hours <a href="https://itisopen.net/office-hours?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=office_hours"><img src="https://img.itisopen.net/fit-in/200x200/https://itisopen.net/wp-content/uploads/2019/08/Powered-by-Zoom.png" align="right" /></a>
 
-[Join us every Wednesday via Zoom](https://itisopen.com/office-hours?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=office_hours) for your weekly dose of insider DevOps trends, AWS news and GitHub Action insights, all sourced from our ITisOpen community, plus a _live Q&A_ that you can’t find anywhere else.
+[Join us every Wednesday via Zoom](https://itisopen.net/office-hours?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=office_hours) for your weekly dose of insider DevOps trends, AWS news and Terraform insights, all sourced from our ITisOpen community, plus a _live Q&A_ that you can’t find anywhere else.
 It's **FREE** for everyone!
-
-## About
-
-This project is maintained by <a href="https://itisopen.net?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=">ITisOpen</a>.
-<a href="https://itisopen.net?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content="><img src="https://itisopen.net/images/itisopen-color-paths.svg" align="right" /></a>
-
-We are a [**DevOps Accelerator**](https://cpco.io/commercial-support?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=commercial_support) for funded startups and enterprises.
-Use our ready-to-go terraform architecture blueprints for AWS & GitHub Actions to get up and running quickly.
-We build it with you. You own everything. Your team wins. Plus, we stick around until you succeed.
-
-<a href="https://cpco.io/commercial-support?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=commercial_support"><img alt="Learn More" src="https://img.shields.io/badge/learn%20more-success.svg?style=for-the-badge"/></a>
-
-*Your team can operate like a pro today.*
-
-Ensure that your team succeeds by using our proven process and turnkey blueprints. Plus, we stick around until you succeed.
-
-<details>
-  <summary>📚 <strong>See What's Included</strong></summary>
-
-- **Reference Architecture.** You'll get everything you need from the ground up built using 100% infrastructure as code.
-- **Deployment Strategy.** You'll have a battle-tested deployment strategy using GitHub Actions that's automated and repeatable.
-- **Site Reliability Engineering.** You'll have total visibility into your apps and microservices.
-- **Security Baseline.** You'll have built-in governance with accountability and audit logs for all changes.
-- **GitOps.** You'll be able to operate your infrastructure via Pull Requests.
-- **Training.** You'll receive hands-on training so your team can operate what we build.
-- **Questions.** You'll have a direct line of communication between our teams via a Shared Slack channel.
-- **Troubleshooting.** You'll get help to triage when things aren't working.
-- **Code Reviews.** You'll receive constructive feedback on Pull Requests.
-- **Bug Fixes.** We'll rapidly work with you to fix any bugs in our projects.
-</details>
-
-<a href="https://itisopen.com/readme/commercial-support/link?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=readme_commercial_support_link"><img src="https://itisopen.com/readme/commercial-support/img"/></a>
+-->
 ## License
 
 <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge" alt="License"></a>
@@ -286,10 +242,12 @@ under the License.
 ## Trademarks
 
 All other trademarks referenced herein are the property of their respective owners.
+
+
 ---
-Copyright © 2017-2025 [ITisOpen](https://cpco.io/copyright)
+- Copyright © 2017-2025 [Cloud Posse, LLC](https://cpco.io/copyright), all rights reserved for upstream content.
+- Copyright © 2025-2025 [ITisOpen](https://itisopen.net/copyright), all rights reserved for repository's specific content
 
+<a href="https://itisopen.net/readme/footer/link?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=readme_footer_link"><img alt="README footer" src="https://itisopen.net/readme/footer/img"/></a>
 
-<a href="https://itisopen.com/readme/footer/link?utm_source=github&utm_medium=readme&utm_campaign=itisopen-gh-actions/readme&utm_content=readme_footer_link"><img alt="README footer" src="https://itisopen.com/readme/footer/img"/></a>
-
-<img alt="Beacon" width="0" src="https://ga-beacon.itisopen.com/UA-76589703-4/itisopen-gh-actions/readme?pixel&cs=github&cm=readme&an=readme"/>
+<img alt="Beacon" width="0" src="https://ga-beacon.itisopen.net/UA-76589703-4/itisopen-gh-actions/readme?pixel&cs=github&cm=readme&an=readme"/>
