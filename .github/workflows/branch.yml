@@ -22,5 +22,5 @@ permissions:
 
 jobs:
   github-action:
-    uses: itisopen-gh-actions/.github/.github/workflows/ci.yml@itisopen
+    uses: itisopen/.github/.github/workflows/shared-github-action.yml@itisopen
     secrets: inherit
